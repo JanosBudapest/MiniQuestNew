@@ -3,7 +3,7 @@ import {View, Text} from "react-native";
 
 const Tab2Screen1 = () => (
     <View>
-        <Text>Tab2Screen1</Text>
+        <Text>Hier kommt die Quest Übersicht rein</Text>
     </View>
 );
 

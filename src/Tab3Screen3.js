@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import {View, Text} from "react-native";
 
-const Tab3Screen1 = () => (
+const Tab3Screen2 = () => (
     <View>
-        <Text>Google Maps API einbinden</Text>
+        <Text>Tab3Screen2</Text>
     </View>
 );
 
-export default Tab3Screen1;
+export default Tab3Screen2;

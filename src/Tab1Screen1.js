@@ -15,14 +15,20 @@ const Tab1Screen1 = (props) => (
                 justifyContent: "center",
 
             }}>
-                <Text style={{marginLeft: "20%"}}>Tab1Screen1fsdfasdfasd</Text>
+                <Text style={{marginLeft: "20%"}}>Was passiert, wenn ich auf den blauen Knopf drücke?</Text>
             </View>
 
         </View>
-        <Text>Tab1Screen1fsdfasdfasd</Text>
+        <Text>Was passiert, wenn ich auf den blauen Knopf drücke?</Text>
         <Button title={"zu 1/2"} onPress={() => {
             props.navigation.navigate("Tab1Screen2")
         }}/>
+
+
+
+
+
+
 
 
     </View>
