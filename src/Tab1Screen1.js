@@ -23,14 +23,6 @@ const Tab1Screen1 = (props) => (
         <Button title={"zu 1/2"} onPress={() => {
             props.navigation.navigate("Tab1Screen2")
         }}/>
-
-
-
-
-
-
-
-
     </View>
 );
 

@@ -1,4 +1,6 @@
 import { createBottomTabNavigator, createStackNavigator } from "react-navigation";
+import React from "react";
+import {Image} from "react-native";
 
 import Tab1Screen1 from "./Tab1Screen1";
 import Tab1Screen2 from "./Tab1Screen2";
@@ -21,7 +23,8 @@ const tabs = createBottomTabNavigator({
             }
         }, {
             navigationOptions: {
-                tabBarLabel: "Home"
+                tabBarLabel: "Home",
+                tabBarIcon: <Image source={require("./images/home/1x/baseline_home_black_18dp.png")}/>
             }
         }),
 
